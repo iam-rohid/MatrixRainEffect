@@ -8,17 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		F8939E6627AFF3CD00A1B0AB /* MetrixEffectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8939E6527AFF3CD00A1B0AB /* MetrixEffectApp.swift */; };
-		F8939E6827AFF3CD00A1B0AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8939E6727AFF3CD00A1B0AB /* ContentView.swift */; };
+		F8939E6827AFF3CD00A1B0AB /* MetrixRainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8939E6727AFF3CD00A1B0AB /* MetrixRainView.swift */; };
 		F8939E6A27AFF3CF00A1B0AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8939E6927AFF3CF00A1B0AB /* Assets.xcassets */; };
 		F8939E6D27AFF3CF00A1B0AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8939E6C27AFF3CF00A1B0AB /* Preview Assets.xcassets */; };
+		F8939E7427AFF6BF00A1B0AB /* matrix.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8939E7327AFF6BF00A1B0AB /* matrix.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F8939E6227AFF3CD00A1B0AB /* MetrixEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetrixEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8939E6527AFF3CD00A1B0AB /* MetrixEffectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetrixEffectApp.swift; sourceTree = "<group>"; };
-		F8939E6727AFF3CD00A1B0AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F8939E6727AFF3CD00A1B0AB /* MetrixRainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetrixRainView.swift; sourceTree = "<group>"; };
 		F8939E6927AFF3CF00A1B0AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8939E6C27AFF3CF00A1B0AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F8939E7327AFF6BF00A1B0AB /* matrix.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = matrix.ttf; sourceTree = "<group>"; };
+		F8939E7527AFF6F500A1B0AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +38,7 @@
 		F8939E5927AFF3CD00A1B0AB = {
 			isa = PBXGroup;
 			children = (
+				F8939E7327AFF6BF00A1B0AB /* matrix.ttf */,
 				F8939E6427AFF3CD00A1B0AB /* MetrixEffect */,
 				F8939E6327AFF3CD00A1B0AB /* Products */,
 			);
@@ -51,8 +55,9 @@
 		F8939E6427AFF3CD00A1B0AB /* MetrixEffect */ = {
 			isa = PBXGroup;
 			children = (
+				F8939E7527AFF6F500A1B0AB /* Info.plist */,
 				F8939E6527AFF3CD00A1B0AB /* MetrixEffectApp.swift */,
-				F8939E6727AFF3CD00A1B0AB /* ContentView.swift */,
+				F8939E6727AFF3CD00A1B0AB /* MetrixRainView.swift */,
 				F8939E6927AFF3CF00A1B0AB /* Assets.xcassets */,
 				F8939E6B27AFF3CF00A1B0AB /* Preview Content */,
 			);
@@ -125,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8939E7427AFF6BF00A1B0AB /* matrix.ttf in Resources */,
 				F8939E6D27AFF3CF00A1B0AB /* Preview Assets.xcassets in Resources */,
 				F8939E6A27AFF3CF00A1B0AB /* Assets.xcassets in Resources */,
 			);
@@ -137,7 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8939E6827AFF3CD00A1B0AB /* ContentView.swift in Sources */,
+				F8939E6827AFF3CD00A1B0AB /* MetrixRainView.swift in Sources */,
 				F8939E6627AFF3CD00A1B0AB /* MetrixEffectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +278,7 @@
 				DEVELOPMENT_TEAM = U9NDVT7L9Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MetrixEffect/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +308,7 @@
 				DEVELOPMENT_TEAM = U9NDVT7L9Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MetrixEffect/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

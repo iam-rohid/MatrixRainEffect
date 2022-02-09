@@ -11,7 +11,7 @@ import SwiftUI
 struct MetrixEffectApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MetrixRainView()
         }
     }
 }
